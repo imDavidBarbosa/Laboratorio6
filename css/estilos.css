@@ -45,9 +45,6 @@ body{
     color: red;
 }
 
-
-
-
 .bodysocc{
     background-image: url("../img/fondosoccer.jpg") ;
     background-repeat: no-repeat;    
@@ -69,4 +66,22 @@ body{
     color: white;
     -webkit-text-stroke: 1px black;
     font-weight: bolder;
+}
+
+.bodybalonc{
+    background-image: url("../img/fondobalonc.jpg") ;
+    background-repeat: no-repeat;    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.bodytenis{
+    background-image: url("../img/fondotenis.jpg") ;
+    background-repeat: no-repeat;    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }

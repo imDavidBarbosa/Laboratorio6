@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="css/estilos.css" type="text/css" rel="stylesheet">
+	<title>Deportes</title>
+</head>
+
+<body>
+
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+        <a class="navbar-brand ms-2 p-3 text-nav" id="inicio" href="index.html">Inicio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end me-2" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-link fs-6 text-center m-2 fw-bold" href="pagina1.html">Soccer</a>
+            <a class="nav-link fs-6 text-center m-2" href="pagina2.html">Baloncesto</a>
+            <a class="nav-link fs-6 text-center m-2" href="pagina3.html">Tenis</a>
+        </div>
+        </div>
+        </div>
+    </nav>
+    <br><br><br>
+    <div class="d-flex align-items-center justify-content-center flex-column bodysocc">
+        <h1 class="portada mt-4">Soccer</h1>
+        <img src="img/soccer1.jpg" id="Img1" style="width:400px;">
+
+        <p class="info m-3 lh-lg infoport">Los deportes son actividades físicas competitivas que se realizan en distintas disciplinas 
+            y modalidades. Los deportes pueden ser individuales o en equipo, y su práctica puede ser recreativa o profesional. 
+            Además de promover un estilo de vida activo y saludable, los deportes también pueden tener beneficios sociales y 
+            emocionales, como fomentar el trabajo en equipo, la disciplina y la perseverancia.
+        </p>
+
+        <p class="info m-3 lh-lg infoport">El primer conjunto de reglas para el fútbol fue creado en Inglaterra en 1863, por la Asociación 
+            de Fútbol de Inglaterra (FA), y se convirtió en el deporte nacional del país. El fútbol se fue popularizando en otros países de 
+            Europa y América del Sur, y en 1904 se fundó la Federación Internacional de Fútbol Asociación (FIFA), que es la organización que 
+            rige el fútbol a nivel mundial.
+        </p>
+
+        <!-- Btn -->
+        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            ¿Qué es la FIFA?
+        </button>
+
+        <p class="info m-3 lh-lg infoport">El soccer es un deporte que se juega con un balón y dos equipos de once jugadores cada uno, que deben 
+            pasar la pelota hacia el arco del equipo contrario para marcar goles. El soccer es un deporte que requiere de habilidad, técnica, 
+            velocidad, resistencia y trabajo en equipo.
+        </p>
+        <img src="img/soccer2.jpg" id="Img2" style="width:500px;">
+        <br>
+      </div>
+
+      
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">FIFA</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p class="pmodal">La FIFA (Federación Internacional de Fútbol Asociación) es la organización que rige el fútbol a nivel mundial. 
+                    Fue fundada en 1904 en París, Francia, con el objetivo de unificar y regular las reglas del fútbol en todo el mundo. 
+                    La FIFA tiene su sede en Zúrich, Suiza, y cuenta con 211 asociaciones nacionales de fútbol afiliadas.</p>
+
+                <p class="pmodal">Entre las principales responsabilidades de la FIFA se encuentran la organización de torneos y campeonatos internacionales de 
+                    fútbol, como la Copa del Mundo de la FIFA, la Copa Confederaciones y la Copa Mundial Femenina de la FIFA, así como también 
+                    la elaboración y actualización de las reglas del juego. Además, la FIFA trabaja en la promoción y el desarrollo del fútbol 
+                    en todo el mundo, a través de programas y proyectos que buscan fomentar la práctica del deporte, el desarrollo de infraestructuras 
+                    y la formación de jugadores, entrenadores y árbitros.</p>
+                
+                
+                <p class="pmodal">La FIFA es una de las organizaciones deportivas más importantes y poderosas del mundo, y tiene un impacto significativo en 
+                    la cultura y la economía de los países donde se practica el fútbol. Sin embargo, la FIFA también ha enfrentado críticas y 
+                    controversias en relación con temas como la corrupción y los derechos humanos.</p>
+
+                <img src="img/imgfifa.png" id="imgfifa" style="width:150px;">
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+  <!--SCRIPTS-->
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
